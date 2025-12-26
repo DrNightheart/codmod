@@ -195,6 +195,11 @@ public class CodFoods {
                     7, 1, false,
                     2f, Optional.of(ItemStack.EMPTY), List.of()
             );
+ public static final FoodProperties NIGHTHEART =
+            new FoodProperties(
+                    7, 6, false,
+                    1f, Optional.of(ItemStack.EMPTY), List.of()
+            );
 
     public static final FoodProperties DISCORD_FRUIT = new FoodProperties.Builder()
             .nutrition(4)
